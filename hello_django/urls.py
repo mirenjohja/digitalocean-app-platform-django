@@ -4,7 +4,7 @@ from django.urls import path
 
 
 def home(request):
-    return JsonResponse({"hello": "world!"})
+    return JsonResponse({"HELLO": "WORLD!"})
 
 
 urlpatterns = [
